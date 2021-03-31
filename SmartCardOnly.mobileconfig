@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ConsentText</key>
+	<dict>
+		<key>default</key>
+		<string>This will require a smart card to use this computer. Only install if you know what you are doing. By installing this, you agree to that this is your own risk, and Linus Skucas is not responsible for any wrong doings on the computer.</string>
+	</dict>
+	<key>HasRemovalPasscode</key>
+	<false/>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>Configures smart card-only</string>
+			<key>PayloadDisplayName</key>
+			<string>Smart card-only</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.security.smartcard.5A15247B-899C-474D-B1D7-DBD82BDE5678</string>
+			<key>PayloadOrganization</key>
+			<string>Apple</string>
+			<key>PayloadType</key>
+			<string>com.apple.security.smartcard</string>
+			<key>PayloadUUID</key>
+			<string>5A15247B-899C-474D-B1D7-DBD82BDE5678</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>UserPairing</key>
+			<false/>
+			<key>allowSmartCard</key>
+			<true/>
+			<key>checkCertificateTrust</key>
+			<false/>
+			<key>enforceSmartCard</key>
+			<true/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Require smart card</string>
+	<key>PayloadDisplayName</key>
+	<string>Smart card-only</string>
+	<key>PayloadIdentifier</key>
+	<string>sh.linus.personal.config.UUID93829</string>
+	<key>PayloadOrganization</key>
+	<string>Linus Skucas</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>system</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>D6CA0B61-AB44-4923-BAB0-F257BCA8352A</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
